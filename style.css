@@ -1,3 +1,30 @@
 body{
     background-color: #9adedb;
 }
+
+div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.column{
+    flex-basis: 50%;
+}
+
+.caption{
+    align-self: center;
+}
+
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px;
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 25%;
+}
